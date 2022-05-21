@@ -1,0 +1,13 @@
+#footer {
+    position: relative; /*Determina el tipo de método de posicionamiento*/
+    width: 100%;
+    min-height: 10%; /*Altura mínima del pie de página*/
+    bottom: 0; /*Desplaza el elemento tomando en cuenta el borde inferior*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#footer p{
+    color: #70679D;
+    font-size: 14px; /*Cambia el tamaño de la fuente del  párrafo*/
+}

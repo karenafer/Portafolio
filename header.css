@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0; /*Remueve el espacio exterior entre los elementos*/ 
+    padding: 0; /*Remueve el espacio alrededor del contenido de los elementos*/
+}
+header {
+    min-height: 10%;
+    width: 90%;
+    padding: 0% 5%;
+    display: flex; /*Permite la visualización interna del elemento sea flexible*/
+    justify-content: right; /*Define como se distribuye los item*/
+    align-items: center; /*Especifica el alineamiento por defecto de los items*/
+}
+main{
+    height: 100vh; /*Define la altura del contenedor principal*/
+    min-height: 100vh;
+    width: 100%; /*Define el ancho del contenedor principal*/
+}
+.nav-container { width: 40%;}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list-item{
+    list-style-type: none; /*Remueve las viñetas de las opciones de la lista*/
+}
+.nav-list-item a {
+    text-decoration: none; /*Quita el subrayado de los hipervinculos*/
+    color: #70679D; /*Cambia el color de la fuente de los hipervinculos*/
+    font-weight: bold; /*Aplica negrita a los caracteres*/
+}
+.nav-list-item button {
+    background-color: #8773EE; /*Cambia el color del fondo del botón*/
+    color: #fff;
+    border: none; /*Remueve el borde*/
+    padding: 10px; /*Aplica espaciado interno sobre el texto del botón*/
+    border-radius: 5px; /*Redondea las esquinas del botón*/
+    font-weight: bold;
+}

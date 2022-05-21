@@ -1,0 +1,46 @@
+.content { /*Aplica estilos sobre el contenido principal*/
+    background-color: #F6F7F9;
+    min-height: 80%;
+    width: 90%;
+    padding: 0% 5%; /*Aplica espaciado interior en los extremos izquierdo y derecho*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#picture {
+    width: 50%;
+    height: 50%;
+    border-radius: 5px; /*Redondea las esquinas de las imagenes*/
+    object-fit: contain; /*La imagen se ajusta dentro del contenedor*/
+    box-shadow: 1rem -1rem #8773EE; /*Añade efectos de sombra alrededor 
+    del marco del contenedor de imagen*/
+}
+
+.info {
+    width: 60%;
+    color: #898A8B;
+}
+
+#info-container {width: 50%;}
+
+#info-container > * {margin: 20px 0;} /*Añade espacio exterior en los extremos inferior y superior*/
+
+#info-container h1 { font-size: 40px; }
+
+#button-container > * { margin: 20px 20px 20px 0 ;}
+
+#button-container button{
+    padding: 10px; border-radius: 5px; font-weight: bold; /*Aplica estilos generales alos botones*/
+}
+
+#contact-button {
+    background-color: #8773EE;
+    color: #fff;
+    border: none;
+}
+#portafolio-button {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
